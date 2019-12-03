@@ -13,7 +13,7 @@ public final class CaptureAutorizer {
     public func CaptureAuth() {
         switch AVCaptureDevice.authorizationStatus(for: .video) {
         case .authorized :
-                    // configureCaptureSession()
+                 print("auth")   // configureCaptureSession()
         case .notDetermined :
             AVCaptureDevice.requestAccess(for: .video) { (res) in
                 if res {
@@ -25,6 +25,8 @@ public final class CaptureAutorizer {
         case .denied :
             return // call alert about impossible to take camera
         case .restricted :
+            return //  call alert about impossible to take camera
+        @unknown default:
             return //  call alert about impossible to take camera
         }
     }
