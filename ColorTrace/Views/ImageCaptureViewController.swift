@@ -7,13 +7,14 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ImageCaptureViewController: UIViewController {
 
     private lazy var preView: PreviewView = {
         let view = PreviewView.init(frame: .zero)
         view.translatesAutoresizingMaskIntoConstraints = false
-        view.backgroundColor = .orange
+        view.backgroundColor = UIColor.init(red: 23/255, green: 63/255, blue: 206/255, alpha: 1)
         return view
     }()
     
@@ -26,12 +27,24 @@ class ImageCaptureViewController: UIViewController {
         return button
     }()
     
+    private let viewModel = ImageCaptureViewModel.init()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.view.backgroundColor = .white
+        preView.session = viewModel.session
         view.addSubview(preView)
         view.addSubview(traceButton)
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        viewModel.startCapture()
+    }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        viewModel.stopCapture()
+
     }
     
     
@@ -55,4 +68,5 @@ class ImageCaptureViewController: UIViewController {
     }
 
 }
+
 

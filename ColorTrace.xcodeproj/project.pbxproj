@@ -15,7 +15,19 @@
 		86CDA5DA2393EA88004D1997 /* CaptureAutorizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CDA5D92393EA88004D1997 /* CaptureAutorizer.swift */; };
 		86CDA5DC2393F95D004D1997 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CDA5DB2393F95D004D1997 /* SessionManager.swift */; };
 		86CDA5DE2396F3DD004D1997 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CDA5DD2396F3DD004D1997 /* PreviewView.swift */; };
+		86CDA5E823994715004D1997 /* ColorTraceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CDA5E723994715004D1997 /* ColorTraceTests.swift */; };
+		86CDA5F3239A7911004D1997 /* ImageCaptureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CDA5F2239A7911004D1997 /* ImageCaptureViewModel.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86CDA5EA23994715004D1997 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 861CB132238C6A2D000E6310 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 861CB139238C6A2D000E6310;
+			remoteInfo = ColorTrace;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		861CB13A238C6A2D000E6310 /* ColorTrace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorTrace.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -28,10 +40,21 @@
 		86CDA5D92393EA88004D1997 /* CaptureAutorizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureAutorizer.swift; sourceTree = "<group>"; };
 		86CDA5DB2393F95D004D1997 /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
 		86CDA5DD2396F3DD004D1997 /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		86CDA5E523994714004D1997 /* ColorTraceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorTraceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86CDA5E723994715004D1997 /* ColorTraceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTraceTests.swift; sourceTree = "<group>"; };
+		86CDA5E923994715004D1997 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86CDA5F2239A7911004D1997 /* ImageCaptureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCaptureViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		861CB137238C6A2D000E6310 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86CDA5E223994714004D1997 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -45,6 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				861CB13C238C6A2D000E6310 /* ColorTrace */,
+				86CDA5E623994715004D1997 /* ColorTraceTests */,
 				861CB13B238C6A2D000E6310 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				861CB13A238C6A2D000E6310 /* ColorTrace.app */,
+				86CDA5E523994714004D1997 /* ColorTraceTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,6 +88,7 @@
 				861CB13D238C6A2D000E6310 /* AppDelegate.swift */,
 				861CB13F238C6A2D000E6310 /* SceneDelegate.swift */,
 				86CDA5D82393E9B1004D1997 /* Managers */,
+				86CDA5F1239A78DA004D1997 /* ViewModels */,
 				86CDA5D72393E983004D1997 /* Views */,
 				861CB146238C6A34000E6310 /* Assets.xcassets */,
 				861CB148238C6A34000E6310 /* LaunchScreen.storyboard */,
@@ -89,6 +115,23 @@
 			path = Managers;
 			sourceTree = "<group>";
 		};
+		86CDA5E623994715004D1997 /* ColorTraceTests */ = {
+			isa = PBXGroup;
+			children = (
+				86CDA5E723994715004D1997 /* ColorTraceTests.swift */,
+				86CDA5E923994715004D1997 /* Info.plist */,
+			);
+			path = ColorTraceTests;
+			sourceTree = "<group>";
+		};
+		86CDA5F1239A78DA004D1997 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				86CDA5F2239A7911004D1997 /* ImageCaptureViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -99,6 +142,7 @@
 				861CB136238C6A2D000E6310 /* Sources */,
 				861CB137238C6A2D000E6310 /* Frameworks */,
 				861CB138238C6A2D000E6310 /* Resources */,
+				86CDA5F023999AFA004D1997 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -108,6 +152,24 @@
 			productName = ColorTrace;
 			productReference = 861CB13A238C6A2D000E6310 /* ColorTrace.app */;
 			productType = "com.apple.product-type.application";
+		};
+		86CDA5E423994714004D1997 /* ColorTraceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86CDA5EC23994715004D1997 /* Build configuration list for PBXNativeTarget "ColorTraceTests" */;
+			buildPhases = (
+				86CDA5E123994714004D1997 /* Sources */,
+				86CDA5E223994714004D1997 /* Frameworks */,
+				86CDA5E323994714004D1997 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86CDA5EB23994715004D1997 /* PBXTargetDependency */,
+			);
+			name = ColorTraceTests;
+			productName = ColorTraceTests;
+			productReference = 86CDA5E523994714004D1997 /* ColorTraceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -121,6 +183,10 @@
 				TargetAttributes = {
 					861CB139238C6A2D000E6310 = {
 						CreatedOnToolsVersion = 11.2.1;
+					};
+					86CDA5E423994714004D1997 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 861CB139238C6A2D000E6310;
 					};
 				};
 			};
@@ -138,6 +204,7 @@
 			projectRoot = "";
 			targets = (
 				861CB139238C6A2D000E6310 /* ColorTrace */,
+				86CDA5E423994714004D1997 /* ColorTraceTests */,
 			);
 		};
 /* End PBXProject section */
@@ -152,13 +219,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		86CDA5E323994714004D1997 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		86CDA5F023999AFA004D1997 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "KEYWORDS=\"MYTODO:|FIXME:|DevTeam:|XXX:\"\nfind \"${SRCROOT}\" \\( -name \"*.h\" -or -name \"*.m\" -or -name \"*.swift\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($KEYWORDS).*\\$\" | perl -p -e \"s/($KEYWORDS)/ warning: \\$1/\"\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		861CB136238C6A2D000E6310 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86CDA5F3239A7911004D1997 /* ImageCaptureViewModel.swift in Sources */,
 				861CB142238C6A2D000E6310 /* ImageCaptureViewController.swift in Sources */,
 				861CB13E238C6A2D000E6310 /* AppDelegate.swift in Sources */,
 				86CDA5DA2393EA88004D1997 /* CaptureAutorizer.swift in Sources */,
@@ -168,7 +263,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		86CDA5E123994714004D1997 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86CDA5E823994715004D1997 /* ColorTraceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		86CDA5EB23994715004D1997 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 861CB139238C6A2D000E6310 /* ColorTrace */;
+			targetProxy = 86CDA5EA23994715004D1997 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		861CB148238C6A34000E6310 /* LaunchScreen.storyboard */ = {
@@ -334,6 +445,46 @@
 			};
 			name = Release;
 		};
+		86CDA5ED23994715004D1997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76BLR948H9;
+				INFOPLIST_FILE = ColorTraceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jerardev.ColorTraceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorTrace.app/ColorTrace";
+			};
+			name = Debug;
+		};
+		86CDA5EE23994715004D1997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76BLR948H9;
+				INFOPLIST_FILE = ColorTraceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jerardev.ColorTraceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorTrace.app/ColorTrace";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -351,6 +502,15 @@
 			buildConfigurations = (
 				861CB14F238C6A34000E6310 /* Debug */,
 				861CB150238C6A34000E6310 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86CDA5EC23994715004D1997 /* Build configuration list for PBXNativeTarget "ColorTraceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86CDA5ED23994715004D1997 /* Debug */,
+				86CDA5EE23994715004D1997 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
