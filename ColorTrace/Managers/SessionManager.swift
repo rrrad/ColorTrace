@@ -30,7 +30,6 @@ final class SessionManager {
         self.dataOutput = output
     }
 
-        //MYTODO: - определить жизненый цикл для ассинхронных вызовов методов менеджера
     func configureSession() {
         sessionQueue.async {[weak self] in
             guard let self = self else {return}
@@ -77,9 +76,4 @@ final class SessionManager {
             self.session.commitConfiguration()
         }
     }
-    
-    
-    //MYTODO: - добавить обработку прерываний
-   
-    
 }

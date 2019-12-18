@@ -12,11 +12,22 @@
 		861CB142238C6A2D000E6310 /* ImageCaptureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861CB141238C6A2D000E6310 /* ImageCaptureViewController.swift */; };
 		861CB147238C6A34000E6310 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 861CB146238C6A34000E6310 /* Assets.xcassets */; };
 		861CB14A238C6A34000E6310 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 861CB148238C6A34000E6310 /* LaunchScreen.storyboard */; };
+		862ABFBD239BE9BE00D61B23 /* CaptureOutputsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862ABFBC239BE9BE00D61B23 /* CaptureOutputsManager.swift */; };
+		862ABFC0239BECAD00D61B23 /* RecognizedColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862ABFBF239BECAD00D61B23 /* RecognizedColorModel.swift */; };
+		86C043AD239C32CA008FC661 /* ExtensionUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C043AC239C32CA008FC661 /* ExtensionUIButton.swift */; };
+		86C043AF239C442E008FC661 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C043AE239C442E008FC661 /* HistoryViewController.swift */; };
+		86C043B2239CFACF008FC661 /* ImageCaptureViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C043B1239CFACF008FC661 /* ImageCaptureViewModelTests.swift */; };
+		86C043B4239CFD47008FC661 /* HistoryViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C043B3239CFD47008FC661 /* HistoryViewModelTest.swift */; };
+		86C043B6239CFDA6008FC661 /* HistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C043B5239CFDA6008FC661 /* HistoryViewModel.swift */; };
+		86C043B9239EE709008FC661 /* HistoryListViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C043B8239EE709008FC661 /* HistoryListViewControllerTest.swift */; };
+		86C043BB23A01CA5008FC661 /* RecognizedColorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C043BA23A01CA5008FC661 /* RecognizedColorCell.swift */; };
+		86C043BD23A16B8C008FC661 /* RecogizionColorCellTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C043BC23A16B8C008FC661 /* RecogizionColorCellTest.swift */; };
 		86CDA5DA2393EA88004D1997 /* CaptureAutorizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CDA5D92393EA88004D1997 /* CaptureAutorizer.swift */; };
 		86CDA5DC2393F95D004D1997 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CDA5DB2393F95D004D1997 /* SessionManager.swift */; };
-		86CDA5DE2396F3DD004D1997 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CDA5DD2396F3DD004D1997 /* PreviewView.swift */; };
-		86CDA5E823994715004D1997 /* ColorTraceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CDA5E723994715004D1997 /* ColorTraceTests.swift */; };
+		86CDA5DE2396F3DD004D1997 /* CapturePreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CDA5DD2396F3DD004D1997 /* CapturePreviewView.swift */; };
 		86CDA5F3239A7911004D1997 /* ImageCaptureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CDA5F2239A7911004D1997 /* ImageCaptureViewModel.swift */; };
+		86EBBFF623A95E8F00491DBF /* ImageCaptureViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EBBFF523A95E8F00491DBF /* ImageCaptureViewControllerTest.swift */; };
+		86EBBFF823AACAB100491DBF /* CapturePreviewViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EBBFF723AACAB100491DBF /* CapturePreviewViewTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,13 +48,24 @@
 		861CB146238C6A34000E6310 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		861CB149238C6A34000E6310 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		861CB14B238C6A34000E6310 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		862ABFBC239BE9BE00D61B23 /* CaptureOutputsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureOutputsManager.swift; sourceTree = "<group>"; };
+		862ABFBF239BECAD00D61B23 /* RecognizedColorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognizedColorModel.swift; sourceTree = "<group>"; };
+		86C043AC239C32CA008FC661 /* ExtensionUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionUIButton.swift; sourceTree = "<group>"; };
+		86C043AE239C442E008FC661 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		86C043B1239CFACF008FC661 /* ImageCaptureViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCaptureViewModelTests.swift; sourceTree = "<group>"; };
+		86C043B3239CFD47008FC661 /* HistoryViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewModelTest.swift; sourceTree = "<group>"; };
+		86C043B5239CFDA6008FC661 /* HistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewModel.swift; sourceTree = "<group>"; };
+		86C043B8239EE709008FC661 /* HistoryListViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryListViewControllerTest.swift; sourceTree = "<group>"; };
+		86C043BA23A01CA5008FC661 /* RecognizedColorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognizedColorCell.swift; sourceTree = "<group>"; };
+		86C043BC23A16B8C008FC661 /* RecogizionColorCellTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecogizionColorCellTest.swift; sourceTree = "<group>"; };
 		86CDA5D92393EA88004D1997 /* CaptureAutorizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureAutorizer.swift; sourceTree = "<group>"; };
 		86CDA5DB2393F95D004D1997 /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
-		86CDA5DD2396F3DD004D1997 /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		86CDA5DD2396F3DD004D1997 /* CapturePreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapturePreviewView.swift; sourceTree = "<group>"; };
 		86CDA5E523994714004D1997 /* ColorTraceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorTraceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		86CDA5E723994715004D1997 /* ColorTraceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTraceTests.swift; sourceTree = "<group>"; };
 		86CDA5E923994715004D1997 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86CDA5F2239A7911004D1997 /* ImageCaptureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCaptureViewModel.swift; sourceTree = "<group>"; };
+		86EBBFF523A95E8F00491DBF /* ImageCaptureViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCaptureViewControllerTest.swift; sourceTree = "<group>"; };
+		86EBBFF723AACAB100491DBF /* CapturePreviewViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapturePreviewViewTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,8 +110,10 @@
 				861CB13D238C6A2D000E6310 /* AppDelegate.swift */,
 				861CB13F238C6A2D000E6310 /* SceneDelegate.swift */,
 				86CDA5D82393E9B1004D1997 /* Managers */,
+				862ABFBE239BEC5A00D61B23 /* Models */,
 				86CDA5F1239A78DA004D1997 /* ViewModels */,
 				86CDA5D72393E983004D1997 /* Views */,
+				86C043AB239C3130008FC661 /* Extension */,
 				861CB146238C6A34000E6310 /* Assets.xcassets */,
 				861CB148238C6A34000E6310 /* LaunchScreen.storyboard */,
 				861CB14B238C6A34000E6310 /* Info.plist */,
@@ -97,11 +121,49 @@
 			path = ColorTrace;
 			sourceTree = "<group>";
 		};
+		862ABFBE239BEC5A00D61B23 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				862ABFBF239BECAD00D61B23 /* RecognizedColorModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		86C043AB239C3130008FC661 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				86C043AC239C32CA008FC661 /* ExtensionUIButton.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		86C043B0239CFA4C008FC661 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				86C043B1239CFACF008FC661 /* ImageCaptureViewModelTests.swift */,
+				86C043B3239CFD47008FC661 /* HistoryViewModelTest.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		86C043B7239EE691008FC661 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				86EBBFF523A95E8F00491DBF /* ImageCaptureViewControllerTest.swift */,
+				86C043B8239EE709008FC661 /* HistoryListViewControllerTest.swift */,
+				86C043BC23A16B8C008FC661 /* RecogizionColorCellTest.swift */,
+				86EBBFF723AACAB100491DBF /* CapturePreviewViewTest.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		86CDA5D72393E983004D1997 /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				861CB141238C6A2D000E6310 /* ImageCaptureViewController.swift */,
-				86CDA5DD2396F3DD004D1997 /* PreviewView.swift */,
+				86CDA5DD2396F3DD004D1997 /* CapturePreviewView.swift */,
+				86C043AE239C442E008FC661 /* HistoryViewController.swift */,
+				86C043BA23A01CA5008FC661 /* RecognizedColorCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -111,6 +173,7 @@
 			children = (
 				86CDA5D92393EA88004D1997 /* CaptureAutorizer.swift */,
 				86CDA5DB2393F95D004D1997 /* SessionManager.swift */,
+				862ABFBC239BE9BE00D61B23 /* CaptureOutputsManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -118,7 +181,8 @@
 		86CDA5E623994715004D1997 /* ColorTraceTests */ = {
 			isa = PBXGroup;
 			children = (
-				86CDA5E723994715004D1997 /* ColorTraceTests.swift */,
+				86C043B0239CFA4C008FC661 /* ViewModels */,
+				86C043B7239EE691008FC661 /* Views */,
 				86CDA5E923994715004D1997 /* Info.plist */,
 			);
 			path = ColorTraceTests;
@@ -128,6 +192,7 @@
 			isa = PBXGroup;
 			children = (
 				86CDA5F2239A7911004D1997 /* ImageCaptureViewModel.swift */,
+				86C043B5239CFDA6008FC661 /* HistoryViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -253,13 +318,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				862ABFC0239BECAD00D61B23 /* RecognizedColorModel.swift in Sources */,
+				86C043AD239C32CA008FC661 /* ExtensionUIButton.swift in Sources */,
 				86CDA5F3239A7911004D1997 /* ImageCaptureViewModel.swift in Sources */,
 				861CB142238C6A2D000E6310 /* ImageCaptureViewController.swift in Sources */,
 				861CB13E238C6A2D000E6310 /* AppDelegate.swift in Sources */,
+				86C043AF239C442E008FC661 /* HistoryViewController.swift in Sources */,
 				86CDA5DA2393EA88004D1997 /* CaptureAutorizer.swift in Sources */,
+				86C043B6239CFDA6008FC661 /* HistoryViewModel.swift in Sources */,
 				86CDA5DC2393F95D004D1997 /* SessionManager.swift in Sources */,
+				862ABFBD239BE9BE00D61B23 /* CaptureOutputsManager.swift in Sources */,
 				861CB140238C6A2D000E6310 /* SceneDelegate.swift in Sources */,
-				86CDA5DE2396F3DD004D1997 /* PreviewView.swift in Sources */,
+				86C043BB23A01CA5008FC661 /* RecognizedColorCell.swift in Sources */,
+				86CDA5DE2396F3DD004D1997 /* CapturePreviewView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,7 +338,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86CDA5E823994715004D1997 /* ColorTraceTests.swift in Sources */,
+				86C043B2239CFACF008FC661 /* ImageCaptureViewModelTests.swift in Sources */,
+				86C043B4239CFD47008FC661 /* HistoryViewModelTest.swift in Sources */,
+				86EBBFF623A95E8F00491DBF /* ImageCaptureViewControllerTest.swift in Sources */,
+				86C043BD23A16B8C008FC661 /* RecogizionColorCellTest.swift in Sources */,
+				86EBBFF823AACAB100491DBF /* CapturePreviewViewTest.swift in Sources */,
+				86C043B9239EE709008FC661 /* HistoryListViewControllerTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
